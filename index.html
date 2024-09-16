@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sticky.css">
+</head>
+<body>
+    
+<div class="welcome">
+    <div class="text-1">
+        <h1 class="h1">Welcome to stickey Notez just stick something memorable </h1>
+    </div>
+</div>
+
+
+<div class="plus">
+    <div class="icon-plus">
+        <div id="plus" class="fa-solid">+</div> 
+    </div>
+</div>
+
+<div id="newModel" class="model">
+   <h2>Note Form</h2>
+   <div class="close" id="closeButton">X</div>
+   <div id="notePreview" class="notez">
+    
+    <input class="content" placeholder="Name:" id="inputTitle" name="title">
+    
+    <textarea class="content" placeholder="Content:" id="inputContent" name="content"></textarea>
+    <div class="color-opts">
+
+        <label class="color-option" style="background-color: rgb(131, 26, 26);">
+            
+        </label>
+        <div class="color-option" style="background-color: rgb(118, 212, 117);">
+            
+        </div>
+        <div class="color-option" style="background-color: rgb(250, 159, 220);">
+            
+        </div>
+        <div class="color-option" style="background-color: rgb(102, 200, 215);">
+        
+        </div>
+    </div>
+    
+   </div>
+   <div class="sutton">
+   <button  type="button" id="submitNote" class="submitnote">Submit</button>
+   <div class="shadow"></div>
+   <button type="menu" id="noteMenu">Preview?</button>
+   </div>
+  
+
+
+</div>
+
+<div id="preview" class="preview1">
+    <div class="rutton">
+    <button  type="button" id="submitNote1" class="submitnote">Submit</button>
+   <button type="menu" id="noteeMenu">Back?</button>
+</div>
+</div>
+
+
+
+
+<div id="savedNotesContainer" class="container1">
+
+</div>
+
+
+
+<script src="sticky.js"></script>
+<script src="https://kit.fontawesome.com/29e2b58a51.js" crossorigin="anonymous"></script>
+</body>
+</html>
